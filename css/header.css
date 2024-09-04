@@ -109,7 +109,13 @@ header {
   font-weight: 500;
   text-transform: uppercase;
   color: var(--fourth-color);
+  transition: all 0.6s ease-in-out;
 }
+
+.nav-link:hover {
+  background-color: var(--accent-color);
+}
+
 .nav-cart-btn {
   display: none;
 }
@@ -163,6 +169,15 @@ header {
     padding: 0;
     color: var(--font-color-2);
     font-size: 0.9em;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .nav-link:hover {
+    color: var(--accent-color);
+    background: none;
+  }
+  .active {
+    color: var(--accent-color);
   }
   .nav-cart-btn {
     display: block;
