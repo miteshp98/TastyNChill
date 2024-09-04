@@ -62,10 +62,11 @@ function checkValue(index, button) {
 function handleActiveTab() {
   const navLink = document.querySelectorAll(".nav-link");
 
-  const currentPage = window.location.pathname;
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
 
   navLink.forEach((link) => {
-    if (link.href.includes(`${currentPage}`)) {
+    const linkPage = link.getAttribute("href").split("/").pop();
+    if (linkPage === currentPage) {
       link.classList.add("active");
     } else {
       link.classList.remove("active");
