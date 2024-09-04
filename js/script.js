@@ -64,6 +64,10 @@ function handleActiveTab() {
 
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
 
+  if (currentPage === "" || currentPage === "/") {
+    currentPage = "index.html";
+  }
+
   navLink.forEach((link) => {
     const linkPage = link.getAttribute("href").split("/").pop();
     if (linkPage === currentPage) {
