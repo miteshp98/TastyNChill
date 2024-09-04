@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Experience the ultimate chill with TastyNChill's mouth-watering burgers. Perfectly crafted for those who love delicious food and good vibes. Come taste the chill!"
+    />
+    <meta
+      name="keywords"
+      content="TastyNChill, burgers, gourmet burgers, chill vibes, burger restaurant, tasty burgers, food lovers"
+    />
+    <meta name="author" content="TastyNChill Team" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Favicon Icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- MY Own Style -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+
+    <title>TastyNChill: Savor the Chill in Every Bite</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="header-container">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="index.html" class="nav-logo">
+              <img src="assets/img/Tastynchill.png" alt="TastyNChill" />
+              Tasty N Chill
+            </a>
+          </div>
+
+          <button class="cart-button">
+            <i class="fa-solid fa-cart-plus"></i>
+          </button>
+
+          <button class="navbar-toggler">
+            <i class="fa-solid fa-burger"></i>
+          </button>
+
+          <div class="navbar-collapse">
+            <button class="navbar-close">
+              <i class="fa-solid fa-xmarks-lines"></i>
+            </button>
+            <ul class="navbar-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="shop.html" class="nav-link">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a href="menu.html" class="nav-link">Menu</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact Us</a>
+              </li>
+
+              <li class="nav-cart-btn">
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i> Cart
+                  <span class="cart-item-count">0</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Main Section OF Home -->
+    <main>
+      <!-- Hero Section Start -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-container">
+            <div class="hero-content">
+              <p class="welcome-msg">Welcome to Tasty N Chill</p>
+              <h1>Crafting Timeless Flavors, One Bite at a Time</h1>
+
+              <div class="hero-stack-img">
+                <img
+                  src="assets/img/home-section/view-delicious-burger-with-buns-cheese.jpg"
+                  alt="delicious burger with buns cheese"
+                />
+                <img
+                  src="assets/img/home-section/front-view-tasty-meat-burger-with-french-fries-dark-floor.jpg"
+                  alt="meat burger with french fries"
+                  class="stack-img"
+                />
+                <img
+                  src="assets/img/home-section/hamburger-with-glass-water-side.jpg"
+                  alt="hamburger with glass water site"
+                  class="stack-img"
+                />
+              </div>
+
+              <button class="view-menu-btn">
+                View Menu<i class="fa-regular fa-eye"></i>
+              </button>
+            </div>
+
+            <div class="feature-img-wrap">
+              <img
+                src="assets/img/home-section/Feature-burger.png"
+                alt="featured Cheeese burger"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Weekly Special Section -->
+      <section class="weekly-speical-section">
+        <div class="container">
+          <div class="weekly-speical-conatiner">
+            <h2 class="section-title">Weekly Speicals</h2>
+            <p class="section-description">
+              A Symphony of Premium Ingredients, Expertly Crafted for
+              Unforgettable Flavor, Served with Passion and a Side of Delight.
+            </p>
+
+            <div class="product-grid">
+              <div class="burger-card">
+                <img
+                  src="assets/img/home-section/burger-img.png"
+                  alt="Double Tower Burger"
+                  class="burger-img"
+                />
+                <h3 class="burger-name">Double patty Burger</h3>
+                <div class="burger-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="burger-price">
+                  $ 18.00 USD <span> <s>$ 23.00 USD</s></span>
+                </p>
+              </div>
+              <div class="burger-card">
+                <img
+                  src="assets/img/home-section/cheese-buffalo-burger.png"
+                  alt="Cheese Buffalo burger"
+                  class="burger-img"
+                />
+                <h3 class="burger-name">Cheese Buffalo Burger</h3>
+                <div class="burger-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="burger-price">
+                  $ 12.00 USD <span> <s>$ 16.00 USD</s></span>
+                </p>
+              </div>
+              <div class="burger-card">
+                <img
+                  src="assets/img/home-section/cheese-veggie-burger.png"
+                  alt="Cheese Veggie Burger"
+                  class="burger-img"
+                />
+                <h3 class="burger-name">Cheese Veggie Burger</h3>
+                <div class="burger-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="burger-price">
+                  $ 15.00 USD <span> <s>$ 20.00 USD</s></span>
+                </p>
+              </div>
+              <div class="burger-card">
+                <img
+                  src="assets/img/home-section/Whopper-cheeseburger.png"
+                  alt="Whooper Chheese Burger"
+                  class="burger-img"
+                />
+                <h3 class="burger-name">Whooper Chheese Burger</h3>
+                <div class="burger-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="burger-price">
+                  $ 18.00 USD <span> <s>$ 25.00 USD</s></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quality-assure-section">
+        <div class="container">
+          <div class="quality-assure-container">
+            <div class="quality-content">
+              <h2 class="section-title">
+                Experience Culinary Excellence at Burger TNC
+              </h2>
+              <p class="section-description">
+                At Burger TNC, our commitment to you is unwavering - we
+                consistently deliver an exceptional standard of quality in every
+                dish we serve. Your satisfaction is our top priority, and we
+                take pride in using only the finest, locally sourced ingredients
+                to craft mouthwatering creations.
+              </p>
+
+              <button class="view-menu-btn">
+                View Menu<i class="fa-regular fa-eye"></i>
+              </button>
+            </div>
+            <div class="quality-img-wrap">
+              <img
+                src="assets/img/home-section/—Pngtree—hamburger-pop-style.png"
+                alt="Burger art"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Offer Section -->
+      <section class="offers-banner-section">
+        <div class="container">
+          <div class="offers-banner-container">
+            <div class="offer-card offer-card-1">
+              <h2 class="offer">50% off</h2>
+              <p class="offer-description">
+                A sweet and savory twist, served with chipotle mayo
+              </p>
+              <img
+                src="assets/img/home-section/burger-meal.png"
+                alt="burger meal "
+                class="offer-card-img-1"
+              />
+              <button class="order-now-btn">Order Now</button>
+            </div>
+
+            <div class="offer-card offer-card-2">
+              <p class="offer-card-2-p">Bite Into Joy</p>
+              <h2 class="offer-card-2-title">
+                Tasty N Chill Where Every Offer Delights!
+              </h2>
+            </div>
+
+            <div class="offer-card offer-card-3">
+              <h2 class="offer-card-3-title">
+                Super-Fast Delivery for Online Orders!
+              </h2>
+
+              <img
+                src="assets/img/home-section/fast-delivery.png"
+                alt="delivery boy"
+                class="offer-card-img"
+              />
+            </div>
+
+            <div class="offer-card offer-card-4">
+              <p class="offer-text">Spicy</p>
+              <h2 class="offer-card-4-title">
+                Limited-Time Special Double the Delight!
+              </h2>
+
+              <button class="view-menu-btn">
+                View Menu<i class="fa-regular fa-eye"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu Section -->
+      <section class="menu-section">
+        <div class="container">
+          <div class="menu-container">
+            <h2 class="section-title menu-section-title">Our Regular Menu</h2>
+
+            <div class="menu-tab-wrap">
+              <a href="#" class="navtab-link active-tab">All</a>
+              <a href="#" class="navtab-link">Classic Burger</a>
+              <a href="#" class="navtab-link">Gourment Creations</a>
+              <a href="#" class="navtab-link">Sides</a>
+              <a href="#" class="navtab-link">Drinks</a>
+            </div>
+
+            <div class="menu-grid">
+              <div class="burger-card card-1">
+                <img
+                  src="assets/img/home-section/Whopper-cheeseburger.png"
+                  alt="Whooper Chheese Burger"
+                  class="burger-img"
+                />
+                <h3 class="burger-name">Whooper Chheese Burger</h3>
+                <div class="burger-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="burger-price">$ 18.00 USD</p>
+              </div>
+              <div class="burger-card card-2">
+                <img
+                  src="assets/img/menu-section/spicy-burger.png"
+                  alt="Spicy Burger"
+                  class="burger-img"
+                />
+                <h3 class="burger-name">Spicy Burger</h3>
+                <div class="burger-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="burger-price">$ 7.00 USD</p>
+              </div>
+              <div class="burger-card card-3">
+                <img
+                  src="assets/img/menu-section/crispy-fried-chicken.png"
+                  alt="Crispy Fried Chicken Burger"
+                  class="burger-img"
+                />
+                <h3 class="burger-name">Crispy Fried Chicken Burger</h3>
+                <div class="burger-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="burger-price">$ 18.00 USD</p>
+              </div>
+              <div class="burger-card card-4">
+                <img
+                  src="assets/img/menu-section/bbq-rancch-burger.png"
+                  alt="BBQ Ranch Burger"
+                  class="burger-img"
+                />
+                <h3 class="burger-name">BBQ Ranch Burger</h3>
+                <div class="burger-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="burger-price">$ 20.00 USD</p>
+              </div>
+              <div class="burger-card card-5">
+                <img
+                  src="assets/img/menu-section/bacon-lover-burger.png"
+                  alt="bacon-lover-burger"
+                  class="burger-img"
+                />
+                <h3 class="burger-name">Bacon's Lover Burger</h3>
+                <div class="burger-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="burger-price">$ 15.00 USD</p>
+              </div>
+              <div class="burger-card card-6">
+                <img
+                  src="assets/img/menu-section/caprese-burger.png"
+                  alt="Caprese Burger"
+                  class="burger-img"
+                />
+                <h3 class="burger-name">Caprese Burger</h3>
+                <div class="burger-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="burger-price">$ 12.00 USD</p>
+              </div>
+              <div class="burger-card card-7">
+                <img
+                  src="assets/img/home-section/cheese-veggie-burger.png"
+                  alt="Cheese Veggie Burger"
+                  class="burger-img"
+                />
+                <h3 class="burger-name">Cheese Veggie Burger</h3>
+                <div class="burger-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="burger-price">$ 25.00 USD</p>
+              </div>
+              <div class="burger-card card-8">
+                <img
+                  src="assets/img/home-section/cheese-buffalo-burger.png"
+                  alt="Buffalo Cheese Burger"
+                  class="burger-img"
+                />
+                <h3 class="burger-name">Buffalo Cheese Burger</h3>
+                <div class="burger-ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="burger-price">$ 8.00 USD</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-us-section">
+        <div class="container">
+          <div class="why-us-container">
+            <div class="why-us-content">
+              <h2 class="section-title why-us-title">
+                Why Choose TNC Catering
+              </h2>
+              <p class="section-description why-us-description">
+                Polygon community library boolean arrow pen. Bold content move
+                create stroke. Main reesizing selection align scale.
+                Strikethrough bold scrolling strikethrough.
+              </p>
+            </div>
+
+            <div class="catering-services">
+              <div class="service-card">
+                <div class="card">
+                  <img
+                    src="assets/img/home-section/burger.png"
+                    alt="burger-icon"
+                  />
+                  <h2 class="service-title">Culinary Experience</h2>
+                  <p class="service-description">
+                    Indulge in a feast of flavors crafted by our skilled chefs,
+                    using premium, locally sourced ingredients. TNC Catering
+                    ensures a culinary experience that delights and impresses.
+                  </p>
+                </div>
+              </div>
+              <div class="service-card">
+                <div class="card">
+                  <img
+                    src="assets/img/home-section/restaurant.png"
+                    alt="burger-icon"
+                  />
+                  <h2 class="service-title">Customizable Menus</h2>
+                  <p class="service-description">
+                    Tailor your catering experience to suit your event. Our
+                    diverse menu options allow you to create a personalized
+                    spread that caters to the unique tastes of your guests.
+                  </p>
+                </div>
+              </div>
+              <div class="service-card">
+                <div class="card">
+                  <img
+                    src="assets/img/home-section/serving-dish.png"
+                    alt="burger-icon"
+                  />
+                  <h2 class="service-title">Professional Service</h2>
+                  <p class="service-description">
+                    Relax and enjoy your event while our dedicated catering team
+                    handles the details. We provide a seamless and professional
+                    service, ensuring your focus remains on the celebration.
+                  </p>
+                </div>
+              </div>
+              <div class="service-card border-right-none">
+                <div class="card">
+                  <img
+                    src="assets/img/home-section/quality.png"
+                    alt="burger-icon"
+                  />
+                  <h2 class="service-title">Quality Beyond Expectations</h2>
+                  <p class="service-description">
+                    TNC is synonymous with quality, and our catering services
+                    reflect that commitment. Expect nothing less than excellence
+                    in every aspect, from food presentation to service.
+                  </p>
+                </div>
+              </div>
+              <div class="service-card border-none">
+                <div class="card">
+                  <img
+                    src="assets/img/home-section/dinner-table.png"
+                    alt="burger-icon"
+                  />
+                  <h2 class="service-title">Flexibility for Every Occasion</h2>
+                  <p class="service-description">
+                    Indulge in a feast of flavors crafted by our skilled chefs,
+                    using premium, locally sourced ingredients. TNC Catering
+                    ensures a culinary experience that delights and impresses.
+                  </p>
+                </div>
+              </div>
+              <div class="service-card border-none">
+                <div class="card">
+                  <img
+                    src="assets/img/home-section/price-tag.png"
+                    alt="burger-icon"
+                  />
+                  <h2 class="service-title">Special Offer for Hosts</h2>
+                  <p class="service-description">
+                    As a token of appreciation, the host receives a
+                    complimentary TNC Signature Burger when booking our catering
+                    services. It's our way of adding an extra layer of joy to
+                    your celebrations.
+                  </p>
+                </div>
+              </div>
+              <div class="service-card border-none">
+                <div class="card">
+                  <img
+                    src="assets/img/home-section/booking.png"
+                    alt="burger-icon"
+                  />
+                  <h2 class="service-title">Hassle-Free Booking</h2>
+                  <p class="service-description">
+                    Connect with our catering coordinator at burger@123.com to
+                    discuss your event requirements and secure your date. We're
+                    here to make your catering experience seamless and
+                    stress-free.
+                  </p>
+                </div>
+              </div>
+              <div class="service-card border-none border-right-none">
+                <div class="card">
+                  <img
+                    src="assets/img/home-section/burger.png"
+                    alt="burger-icon"
+                  />
+                  <h2 class="service-title">Exquisite Presentation</h2>
+                  <p class="service-description">
+                    Our culinary creations are not just delicious; they are
+                    artfully arranged to create a visually stunning dining
+                    experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonal-section">
+        <div class="container">
+          <div class="tesimonal-container">
+            <div class="testimonal-img">
+              <img
+                src="assets/img/testimonal-section/circle-bg.png"
+                alt="circle-bg"
+                class="circle-bg"
+              />
+
+              <img
+                src="assets/img/testimonal-section/client-1.png"
+                alt="client photo"
+                class="client-image client-image-1"
+              />
+              <img
+                src="assets/img/testimonal-section/client-2.png"
+                alt="client photo"
+                class="client-image client-image-2"
+              />
+              <img
+                src="assets/img/testimonal-section/client-3.png"
+                alt="client photo"
+                class="client-image client-image-3"
+              />
+              <img
+                src="assets/img/testimonal-section/client-4.png"
+                alt="client photo"
+                class="client-image client-image-4"
+              />
+              <img
+                src="assets/img/testimonal-section/client-5.png"
+                alt="client photo"
+                class="client-image client-image-5"
+              />
+              <img
+                src="assets/img/testimonal-section/client-6.png"
+                alt="client photo"
+                class="client-image client-image-6"
+              />
+            </div>
+
+            <div class="testimonal-content-wrapper">
+              <h2 class="section-title testimonal-title">
+                What Customer Says About Us
+              </h2>
+
+              <div class="testimonal-slider-container">
+                <div class="testimoanl-slide-wrapper">
+                  <div class="testimonal-slider slide--1">
+                    <div class="client-comment">
+                      <p>
+                        "Burger TNC offers a decent burger experience. The patty
+                        was well-cooked, and the toppings were fresh Prices are
+                        fair, but I’d like to see more variety in the menu. It’s
+                        not bad, but there’s room for improvement."
+                      </p>
+
+                      <div class="client-img-name">
+                        <img
+                          src="assets/img/testimonal-section/client-2.png"
+                          alt="Timber Cooper"
+                        />
+                        <p class="client-name">Timber Cooper</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonal-slider slide--2">
+                    <div class="client-comment">
+                      <p>
+                        "TNC Catering turned our office event into a culinary
+                        delight! The presentation was stunning, and every bite
+                        was bursting with flavor. The customization options made
+                        it easy to cater to everyone's preferences. A definite
+                        hit!"
+                      </p>
+
+                      <div class="client-img-name">
+                        <img
+                          src="assets/img/testimonal-section/client-3.png"
+                          alt="Timber Cooper"
+                        />
+                        <p class="client-name">Brooklyn Simmons</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonal-slider slide--3">
+                    <div class="client-comment">
+                      <p>
+                        "I recently visited Tasty N Chill, and it was a great
+                        experience. The burgers are juicy and flavourful, with a
+                        variety of creative toppings to choose from. Overall,
+                        it’s a solid spot for a delicious burger and I’ll
+                        definitely be back!"
+                      </p>
+
+                      <div class="client-img-name">
+                        <img
+                          src="assets/img/testimonal-section/client-1.png"
+                          alt="Timber Cooper"
+                        />
+                        <p class="client-name">Timmy Carolina</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-button-container">
+                  <button
+                    class="slider-button active-slide"
+                    data-slide="1"
+                  ></button>
+                  <button class="slider-button" data-slide="2"></button>
+                  <button class="slider-button" data-slide="3"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="speical-offer-banner">
+            <h2>Special Offer for Catering Events</h2>
+            <p>
+              Book your catering with us, and the host receives a complimentary
+              TNC Signature Burger! It's our way of adding an extra layer of joy
+              to your celebrations.
+            </p>
+            <button class="order-now-btn">Order Now</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-brand-logo">
+          <a href="index.html">
+            <img src="assets/img/Tastynchill.png" alt="Tasty N Chill" />
+            Tasty N Chill
+          </a>
+          <p class="slogan">
+            Savor Home-Style Delights, One Bite Delivers Joy.
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="footer-content">
+          <p class="footer-content-title">Contact Us</p>
+
+          <ul class="footer-content-list">
+            <li class="contact-list">
+              <i class="fa-solid fa-house"></i>
+              517 Washington Ave. Manchester, Kentucky 39495
+            </li>
+            <li class="contact-list">
+              <i class="fa-solid fa-phone"></i>
+              (304) X23-1092
+            </li>
+            <li class="contact-list">
+              <i class="fa-regular fa-envelope"></i>
+              example@gmail.com
+            </li>
+          </ul>
+        </div>
+
+        <hr />
+
+        <div class="footer-content">
+          <p class="footer-content-title">Opening Hours</p>
+          <p class="opening-days">
+            Monday to Friday
+            <span class="timeing">10:00AM to 12:00PM</span>
+          </p>
+          <p class="opening-days">
+            Saturday And Sunday
+            <span class="timeing">10:00AM to 2:00AM</span>
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="footer-content">
+          <p class="footer-content-title">Newsletter Subscribe</p>
+          <p class="newsletter-description">
+            Stay In the Loop: Unlock Exclusive Offers, Culinary Insights, and
+            More.
+          </p>
+
+          <form action="#" class="newsletter-form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email"
+            />
+            <button type="submit" class="submit">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+
+          <div class="footer-social-wrap">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-container">
+        <p class="copyright-msg">Copyright © 2024 Tasty N Chill</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
