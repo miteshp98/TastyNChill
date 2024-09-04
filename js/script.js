@@ -62,15 +62,18 @@ function checkValue(index, button) {
 function handleActiveTab() {
   const navLink = document.querySelectorAll(".nav-link");
 
-  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const currentPage = window.location.pathname;
 
-  if (currentPage === "" || currentPage === "/") {
+  if (currentPage === "/" || currentPage === "") {
     currentPage = "index.html";
   }
 
   navLink.forEach((link) => {
-    const linkPage = link.getAttribute("href").split("/").pop();
-    if (linkPage === currentPage) {
+    const linkPage = link.getAttribute("href");
+    if (
+      linkPage === currentPage ||
+      (linkPage === "/" && currentPage === "index.html")
+    ) {
       link.classList.add("active");
     } else {
       link.classList.remove("active");
