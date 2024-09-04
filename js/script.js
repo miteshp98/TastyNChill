@@ -1,8 +1,11 @@
 "use strict";
 
+const slides = document.querySelectorAll(".testimonal-slider");
+const sliderButtons = document.querySelectorAll(".slider-button");
+
 function handleNavbarToggle() {
-  const header = document.querySelector(".header-container");
   const navbar = document.querySelector(".navbar-collapse");
+  const header = document.querySelector(".header-container");
   const closeNavbar = document.querySelector(".navbar-close");
 
   header.addEventListener("click", function (e) {
@@ -24,9 +27,6 @@ function handleNavbarToggle() {
   });
 }
 handleNavbarToggle();
-
-const slides = document.querySelectorAll(".testimonal-slider");
-const sliderButtons = document.querySelectorAll(".slider-button");
 
 sliderButtons.forEach((button, index) => {
   button.addEventListener("click", function (e) {
@@ -58,3 +58,24 @@ function checkValue(index, button) {
     button.classList.add("active-slide");
   }
 }
+
+function handleActiveTab() {
+  const navLink = document.querySelectorAll(".nav-link");
+
+  const currentPage = window.location.pathname;
+
+  navLink.forEach((link) => {
+    if (link.href.includes(`${currentPage}`)) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+
+    link.addEventListener("click", function (e) {
+      navLink.forEach((lnk) => lnk.classList.remove("active"));
+      link.classList.add("active");
+    });
+  });
+}
+
+handleActiveTab();
