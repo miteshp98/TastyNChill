@@ -73,7 +73,6 @@ function handleActiveTab() {
 
     link.addEventListener("click", function (e) {
       navLink.forEach((lnk) => lnk.classList.remove("active"));
-      link.classList.add("active");
     });
   });
 }
