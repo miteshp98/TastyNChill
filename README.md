@@ -23,11 +23,14 @@ TastyNChill is a static, responsive website built as a practice project to showc
 
 ## Screenshots
 
-- Destop View:- ![Macbook-Air-tastynchill netlify app](https://github.com/user-attachments/assets/0fa2f733-27df-44bc-b1e7-2772e2991d4e)
+- Destop View:-
+- ![Macbook-Air-tastynchill netlify app](https://github.com/user-attachments/assets/0fa2f733-27df-44bc-b1e7-2772e2991d4e)
 
--Ipad View:- ![iPad-Mini-tastynchill netlify app](https://github.com/user-attachments/assets/184f4796-15b5-4324-9d5c-afc27bdb7c6a)
+-Ipad View:- 
+![iPad-Mini-tastynchill netlify app](https://github.com/user-attachments/assets/184f4796-15b5-4324-9d5c-afc27bdb7c6a)
 
--Phone View:- ![iPhone-13-PRO-MAX-tastynchill netlify app](https://github.com/user-attachments/assets/bd3e28a2-221c-481b-ae0b-6a1db2b51273)
+-Phone View:- 
+![iPhone-13-PRO-MAX-tastynchill netlify app](https://github.com/user-attachments/assets/bd3e28a2-221c-481b-ae0b-6a1db2b51273)
 
 
 ## License
