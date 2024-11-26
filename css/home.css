@@ -46,10 +46,16 @@ h1 {
   border: 2px solid white;
   border-radius: 35px;
   filter: brightness(1.4);
+  transition: all 0.5s ease-in-out;
 }
 
 .stack-img {
   margin-left: -50px;
+}
+
+.hero-stack-img > img:hover {
+  transform: rotateZ(-30deg);
+  transform-origin: bottom left;
 }
 
 .feature-img-wrap {

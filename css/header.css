@@ -176,9 +176,11 @@ header {
     color: var(--accent-color);
     background: none;
   }
+
   .active {
     color: var(--accent-color);
   }
+
   .nav-cart-btn {
     display: block;
   }
