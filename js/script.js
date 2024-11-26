@@ -62,7 +62,7 @@ function checkValue(index, button) {
 function handleActiveTab() {
   const navLink = document.querySelectorAll(".nav-link");
 
-  const currentPage = window.location.pathname;
+  let currentPage = window.location.pathname;
 
   if (currentPage === "/" || currentPage === "") {
     currentPage = "index.html";
